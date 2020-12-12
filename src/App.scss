@@ -23,6 +23,12 @@ body {
   overflow: hidden;
 }
 
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .empty {
   height: 15rem;
   width: 15rem;
@@ -49,7 +55,9 @@ body {
 }
 
 @media (max-width: 800px) {
-  body {
-    flex-direction: column;
+  .app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
