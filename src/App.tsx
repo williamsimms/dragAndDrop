@@ -3,8 +3,14 @@ import './App.scss'
 
 const App = () => {
   return (
-    <div className='App'>
-      <h1>App</h1>
+    <div className='app'>
+      <div className='empty'>
+        <div className='fill' draggable='true'></div>
+      </div>
+      <div className='empty'></div>
+      <div className='empty'></div>
+      <div className='empty'></div>
+      <div className='empty'></div>
     </div>
   )
 }
